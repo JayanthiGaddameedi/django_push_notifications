@@ -1,0 +1,10 @@
+installations
+
+1. pip install django
+2. pip install firebase-admin
+3. login into the google firebase console account(https://console.firebase.google.com/u/0/). then 'project overview >>   project settings >> service accounts >> select python >> generate the new private key'
+4. create a json file and add the above data into it.
+4. also copy the code displayed there in your views file
+5. you will get the token when you create the account in the firebase(while creating)
+6. copy the token and paste it in the views file.(later add it into the env variables)
+7. 

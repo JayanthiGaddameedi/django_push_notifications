@@ -1,0 +1,14 @@
+# virtualenv
+venv
+
+# python compiled
+*.pyc
+**/__pycache__
+
+# IDE
+.idea
+
+# migrations
+**/migrations
+db.sqlite3
+
